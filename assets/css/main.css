@@ -8,8 +8,8 @@
 */
 
 .logos > img {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 
@@ -1929,7 +1929,7 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		padding: 6em 0 8em 0;
+		padding: 3em 0 4em 0;
 	}
 
 /* Header */
