@@ -6,13 +6,41 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.highlight {
+  display: flex;
+}
+.highlight-in {
+  width: 30%;
+  margin-left: 1rem;
+}
+.highlight-sc {
+  width: 70%;
+}
+    
+.sc {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  min-height: 12rem;
+  }
+  
+  .sc > a {
+    padding: 0.5rem;
+    box-shadow: 1px 1px 10px rgba(30,0,80,0.3);
+    margin: 0 auto;
+    /* min-height:15rem; */
+  }
 
+  .inner header ~ p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  
 .logos > img {
   width: 3rem;
   height: 3rem;
 }
-
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -106,7 +134,7 @@ input, select, textarea {
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
-		line-height: 2.25em;
+		line-height: 2em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1609,8 +1637,10 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2.5em 0;
-		}
+      margin: 0 0 2.5em 0;
+      
+    }
+
 
 		.image.left {
 			float: left;
@@ -1783,21 +1813,24 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+
+      
 /* Box */
 
 	.box {
 		background: #fff;
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
-		padding: 2em;
+    padding: 2em;
+    height: 100%;
 	}
 
 		.box.feature {
-			padding: 0;
+			padding: 1rem;
 		}
 
 			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
+				padding: 2em 1em 2em;
 			}
 
 			.box.feature h2 {
@@ -1814,8 +1847,7 @@ input, select, textarea {
 			}
 
 				.box.feature .image img {
-					border-bottom-left-radius: 0;
-					border-bottom-right-radius: 0;
+					border-radius: 0;
 				}
 
 /* Icons */
@@ -1915,7 +1947,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		padding: 3em 0 2em 0;
 	}
 
 	#features-wrapper {
@@ -1929,7 +1961,7 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		padding: 3em 0 4em 0;
+		padding: 3em 0 0;
 	}
 
 /* Header */
@@ -2133,7 +2165,7 @@ input, select, textarea {
 
 	#copyright {
 		color: #aaa;
-		padding: 4em 0 0 0;
+		padding: 1em 0 0 0;
 		text-align: center;
 	}
 
