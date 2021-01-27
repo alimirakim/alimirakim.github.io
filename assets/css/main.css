@@ -17,26 +17,42 @@
 }
 .highlight-sc {
   width: 70%;
-}
-    
-.sc {
   display: flex;
   align-items: center;
   justify-items: center;
-  min-height: 12rem;
-  }
-  
-  .sc > a {
-    padding: 0.5rem;
-    box-shadow: 1px 1px 10px rgba(30,0,80,0.3);
-    margin: 0 auto;
-    /* min-height:15rem; */
-  }
+  margin: 0 auto;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 10px rgba(30,0,80,0.3);
+}
+    
+.sc {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
 
-  .inner header ~ p {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
+.sc > a > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+.sc > a {
+  min-height: 12rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 10px rgba(30,0,80,0.3);
+  margin: 0 auto;
+  /* min-height:15rem; */
+}
+
+.inner header ~ p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
 
   
 .logos > img {
@@ -50,9 +66,8 @@
   width: 50%;
 }
 .skills-list {
-  list-style: none;
-  /* margin: 0; */
-  padding: 0;
+  /* list-style: none; */
+  /* padding: 0; */
 }
 
 .skill-label {
@@ -201,7 +216,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25em;
-    margin: 0 0 0;
+    margin: 0 0 1rem;
     padding: 0;
 		line-height: 1em;
 	}
