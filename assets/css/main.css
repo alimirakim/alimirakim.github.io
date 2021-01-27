@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 
 
+
+.button-resume {
+  width: 100%;
+  text-align: center;
+  margin: 0rem 0 3rem;
+}
 .highlight {
   display: flex;
 }
@@ -42,6 +48,11 @@
 }
 .skills > div {
   width: 50%;
+}
+.skills-list {
+  list-style: none;
+  /* margin: 0; */
+  padding: 0;
 }
 
 .skill-label {
@@ -190,7 +201,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25em;
-		margin: 0 0 1.1em 0;
+    margin: 0 0 0;
+    padding: 0;
 		line-height: 1em;
 	}
 
@@ -506,6 +518,7 @@ input, select, textarea {
 				}
 
 		.row.gtr-200 {
+      clear: both;
 			margin-top: -80px;
 			margin-left: -80px;
 		}
@@ -1683,7 +1696,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: #ff4486;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1959,7 +1972,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 3em 0 2em 0;
+		padding: 1em 0 1em 0;
 	}
 
 	#features-wrapper {
@@ -2584,7 +2597,8 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-		/* Button */
+    /* Button */
+    
 
 			input[type="button"],
 			input[type="submit"],
@@ -2739,11 +2753,12 @@ input, select, textarea {
   }
   
   .portrait {
-    float: right;
+    float: left;
     width: 20%;
     object-fit: cover;
     border-radius: 10px;
-    margin: 2rem;
+    margin: 1rem;
+    /* margin: 0  0 1rem 1rem; */
   }
   
   a {
